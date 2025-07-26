@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuzzBravo - Job Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <img src="https://buzzbravo.com/wp-content/uploads/2024/01/logo.png" alt="BuzzBravo" class="logo" onerror="this.style.display='none'">
+            <h1>BuzzBravo</h1>
+            <p>Your Job Marketplace</p>
+        </div>
+        <div class="button-container">
+            <button class="open-button">
+                Browse Jobs
+            </button>
+            <button class="secondary-button">
+                Post a Job
+            </button>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <h3>🔍 Find Jobs</h3>
+                <p>Browse thousands of job opportunities</p>
+            </div>
+            <div class="feature">
+                <h3>💼 Post Jobs</h3>
+                <p>Find the perfect candidate for your role</p>
+            </div>
+            <div class="feature">
+                <h3>📱 Mobile Ready</h3>
+                <p>Access your jobs anywhere, anytime</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        window.onload = function() {
+            const browseButton = document.querySelector('.open-button');
+            const postButton = document.querySelector('.secondary-button');
+            
+            if (browseButton) {
+                browseButton.onclick = function() {
+                    window.open('https://buzzbravo.com', '_blank');
+                };
+            }
+            
+            if (postButton) {
+                postButton.onclick = function() {
+                    window.open('https://buzzbravo.com', '_blank');
+                };
+            }
+        };
+    </script>
+</body>
+</html>

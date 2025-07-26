@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BuzzBravo</string>
+    <string name="title_activity_main">BuzzBravo</string>
+    <string name="package_name">com.buzzbravo.app</string>
+    <string name="custom_url_scheme">com.buzzbravo.app</string>
+</resources>
